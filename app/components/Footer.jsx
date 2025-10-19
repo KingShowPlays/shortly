@@ -40,7 +40,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='text-center absolute bottom-1 left-[50%] translate-x-[-50%]'>
-                <code className='text-white'>© {new Date().getFullYear()}  <a href="https://kingsworks.vercel.app">KingShowPlays</a></code>
+                <code className='text-white flex gap-1'>© {new Date().getFullYear()}  <a href="https://kingsworks.vercel.app">KingShowPlays</a></code>
             </div>
         </footer>
     )
