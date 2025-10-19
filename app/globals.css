@@ -36,6 +36,11 @@ body {
   width: 80%;
   margin: auto;
 }
+@media (width<640px) {
+  .container {
+    width: 90%;
+  }
+}
 @layer components {
   .teal {
     @apply bg-Blue-400 text-white cursor-pointer transition;

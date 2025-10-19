@@ -142,7 +142,7 @@ const Stats = () => {
             </div>
 
             {/* Stats section */}
-            <div className='flex flex-col items-center max-w-[400px] w-[90%] m-auto text-center mb-8'>
+            <div className='flex flex-col items-center max-w-[400px] w-[80%] m-auto text-center mb-8'>
                 <h2 className='font-extrabold text-3xl'>Advanced Statistics</h2>
                 <p className='text-Gray-500'>
                     Track how your links are performing across the web with our advanced statistics dashboard.
