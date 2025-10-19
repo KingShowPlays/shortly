@@ -76,7 +76,7 @@ const Stats = () => {
     }
 
     return (
-        <section id='shorten' className='bg-[#f0f1f8] py-5'>
+        <section className='bg-[#f0f1f8] py-5'>
             <form
                 onSubmit={handleSubmit}
                 className="flex items-center justify-center transition gap-2 bg-Purple-950 relative py-6 z-10 h-auto w-[80%] m-auto rounded-sm overflow-hidden -top-13 max-sm:flex-col max-sm:-top-20"
