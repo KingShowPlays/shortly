@@ -12,7 +12,7 @@ const HeroPage = () => {
                 </h1>
                 <p className='text-Gray-500'>Build your brand’s recognition and get detailed insights
                     on how your links are performing.</p>
-                <button className='teal py-2 px-8 rounded-2xl' onClick={() => window.location.href = '#shorten'} id='shorten'>Get Started</button>
+                <button className='teal py-2 px-8 rounded-2xl border-0' onClick={() => window.location.href = '#shorten'} id='shorten'>Get Started</button>
             </div>
             <div className='w-[100%] h-[300px] relative left-10 max-sm:left-20'><Image src={Hero} alt="hero image" width={0} height={0} className='w-[100%] h-[100%]' /></div>
         </section >
